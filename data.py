@@ -3,10 +3,10 @@ heroes_dict = {
     'Ainz Ooal Gown' : {
         'name': 'Ainz Ooal Gown',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Ainz Ooal Gown.png',
-        'sig_img': 'images/items/Ainz_Ooal_Gown_sigitem.webp',
+        'img': 'images\\heroes\\Ainz Ooal Gown.png',
+        'sig_img': 'images\\items\\Ainz Ooal Gown sigitem.png',
         'sig': 'Staff Of Ainz Ooal Gown',
         'skills': {
             'skill_1': ' Fallen Down',
@@ -21,10 +21,10 @@ heroes_dict = {
     'Alaro' : {
         'name': 'Alaro',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Alaro.png',
-        'sig_img': 'AFK Compendium/images/heroes/Alaro sigitem.png',
+        'img': 'images\\heroes\\Alaro.png',
+        'sig_img': 'images\\items\\Alaro sigitem.png',
         'sig': 'MaulerS Horn',
         'skills': {
             'skill_1': ' Unwanted Surprises',
@@ -39,10 +39,10 @@ heroes_dict = {
     'Albedo' : {
         'name': 'Albedo',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Albedo.png',
-        'sig_img': 'AFK Compendium/images/heroes/Albedo sigitem.png',
+        'img': 'images\\heroes\\Albedo.png',
+        'sig_img': 'images\\items\\Albedo sigitem.png',
         'sig': 'Ginnungagap',
         'skills': {
             'skill_1': 'Ginnungagap',
@@ -57,10 +57,10 @@ heroes_dict = {
     'Alna' : {
         'name': 'Alna',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/alna.png',
-        'sig_img': 'AFK Compendium/images/items/Alna sigitem.png',
+        'img': 'images\\heroes\\alna.png',
+        'sig_img': 'AFK Compendium/images\\items\\Alna sigitem.png',
         'sig': 'Frostbite',
         'skills': {
             'skill_1': 'Winter War Cry',
@@ -75,10 +75,10 @@ heroes_dict = {
     'Angelo' : {
         'name': 'Angelo',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Angelo.png',
-        'sig_img': 'AFK Compendium/images/heroes/Angelo sigitem.png',
+        'img': 'images\\heroes\\Angelo.png',
+        'sig_img': 'images\\items\\Angelo sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': ' Love and Peace',
@@ -93,10 +93,10 @@ heroes_dict = {
     'Ankhira' : {
         'name': 'Ankhira',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Ankhira.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ankhira sigitem.png',
+        'img': 'images\\heroes\\Ankhira.png',
+        'sig_img': 'images\\items\\Ankhira sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': ' Venomous Bile',
@@ -111,10 +111,10 @@ heroes_dict = {
     'Anoki' : {
         'name': 'Anoki',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Anoki.png',
-        'sig_img': 'AFK Compendium/images/heroes/Anoki sigitem.png',
+        'img': 'images\\heroes\\Anoki.png',
+        'sig_img': 'images\\items\\Anoki sigitem.png',
         'sig': 'Blood Guards Warhorn',
         'skills': {
             'skill_1': ' Savage Stampede',
@@ -129,10 +129,10 @@ heroes_dict = {
     'Antandra' : {
         'name': 'Antandra',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Antandra.png',
-        'sig_img': 'AFK Compendium/images/heroes/Antandra sigitem.png',
+        'img': 'images\\heroes\\Antandra.png',
+        'sig_img': 'images\\items\\Antandra sigitem.png',
         'sig': 'Dances-In-Blood',
         'skills': {
             'skill_1': 'Fury Strike',
@@ -147,10 +147,10 @@ heroes_dict = {
     'Arden' : {
         'name': 'Arden',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Arden.png',
-        'sig_img': 'AFK Compendium/images/heroes/Arden sigitem.png',
+        'img': 'images\\heroes\\Arden.png',
+        'sig_img': 'images\\items\\Arden sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Force of Nature',
@@ -165,10 +165,10 @@ heroes_dict = {
     'Arkadios' : {
         'name': 'Arkadios',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Arkadios.png',
-        'sig_img': 'AFK Compendium/images/heroes/Arkadios sigitem.png',
+        'img': 'images\\heroes\\Arkadios.png',
+        'sig_img': 'images\\items\\Arkadios sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Gloomy Cloud',
@@ -183,10 +183,10 @@ heroes_dict = {
     'Arthur' : {
         'name': 'Arthur',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Arthur.png',
-        'sig_img': 'AFK Compendium/images/heroes/Arthur sigitem.png',
+        'img': 'images\\heroes\\Arthur.png',
+        'sig_img': 'images\\items\\Arthur sigitem.png',
         'sig': 'Excalibur',
         'skills': {
             'skill_1': 'Smite',
@@ -201,10 +201,10 @@ heroes_dict = {
     'Astar' : {
         'name': 'Astar',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Astar.png',
-        'sig_img': 'AFK Compendium/images/heroes/Astar sigitem.png',
+        'img': 'images\\heroes\\Astar.png',
+        'sig_img': 'images\\items\\Astar sigitem.png',
         'sig': 'Excalibur',
         'skills': {
             'skill_1': 'Life Sparks',
@@ -219,10 +219,10 @@ heroes_dict = {
     'Athalia' : {
         'name': 'Athalia',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Athalia.png',
-        'sig_img': 'AFK Compendium/images/heroes/Athalia sigitem.png',
+        'img': 'images\\heroes\\Athalia.png',
+        'sig_img': 'images\\items\\Athalia sigitem.png',
         'sig': 'The Sin Purgers',
         'skills': {
             'skill_1': 'Divine Fury',
@@ -237,10 +237,10 @@ heroes_dict = {
     'Audrae' : {
         'name': 'Audrae',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Audrae.png',
-        'sig_img': 'AFK Compendium/images/heroes/Audrae sigitem.png',
+        'img': 'images\\heroes\\Audrae.png',
+        'sig_img': 'images\\items\\Audrae sigitem.png',
         'sig': 'Stellar Bow And Arrow',
         'skills': {
             'skill_1': 'Cosmic Shower',
@@ -255,10 +255,10 @@ heroes_dict = {
     'Baden' : {
         'name': 'Baden',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Baden.png',
-        'sig_img': 'AFK Compendium/images/heroes/Baden sigitem.png',
+        'img': 'images\\heroes\\Baden.png',
+        'sig_img': 'images\\items\\Baden sigitem.png',
         'sig': 'Spear Of Decay',
         'skills': {
             'skill_1': 'Phantom Assassin',
@@ -273,10 +273,10 @@ heroes_dict = {
     'Belinda' : {
         'name': 'Belinda',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Belinda.png',
-        'sig_img': 'AFK Compendium/images/heroes/Belinda sigitem.png',
+        'img': 'images\\heroes\\Belinda.png',
+        'sig_img': 'images\\items\\Belinda sigitem.png',
         'sig': 'Staff Of Light',
         'skills': {
             'skill_1': 'Divine Light',
@@ -291,10 +291,10 @@ heroes_dict = {
     'Bloodsnarl' : {
         'name': 'Bloodsnarl',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Bloodsnarl.png',
-        'sig_img': 'AFK Compendium/images/heroes/Bloodsnarl sigitem.png',
+        'img': 'images\\heroes\\Bloodsnarl.png',
+        'sig_img': 'images\\items\\Bloodsnarl sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Raging Spiral',
@@ -309,10 +309,10 @@ heroes_dict = {
     'Brutus' : {
         'name': 'Brutus',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Brutus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Brutus sigitem.png',
+        'img': 'images\\heroes\\Brutus.png',
+        'sig_img': 'images\\items\\Brutus sigitem.png',
         'sig': 'Rends-The-Weak',
         'skills': {
             'skill_1': 'Whirlwind',
@@ -327,10 +327,10 @@ heroes_dict = {
     'Cecilia' : {
         'name': 'Cecilia',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Cecilia.png',
-        'sig_img': 'AFK Compendium/images/heroes/Cecilia sigitem.png',
+        'img': 'images\\heroes\\Cecilia.png',
+        'sig_img': 'images\\items\\Cecilia sigitem.png',
         'sig': 'Sacred Book Of Cleansing',
         'skills': {
             'skill_1': 'Judgement Day',
@@ -345,10 +345,10 @@ heroes_dict = {
     'Daimon' : {
         'name': 'Daimon',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Daimon.png',
-        'sig_img': 'AFK Compendium/images/heroes/Daimon sigitem.png',
+        'img': 'images\\heroes\\Daimon.png',
+        'sig_img': 'images\\items\\Daimon sigitem.png',
         'sig': 'Stitchy',
         'skills': {
             'skill_1': 'Soul Feast',
@@ -363,10 +363,10 @@ heroes_dict = {
     'Desira' : {
         'name': 'Desira',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Desira.png',
-        'sig_img': 'AFK Compendium/images/heroes/Desira sigitem.png',
+        'img': 'images\\heroes\\Desira.png',
+        'sig_img': 'images\\items\\Desira sigitem.png',
         'sig': 'Shell Of Treason',
         'skills': {
             'skill_1': 'Sirens Call',
@@ -381,10 +381,10 @@ heroes_dict = {
     'Dreaf' : {
         'name': 'Dreaf',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Dreaf.png',
-        'sig_img': 'AFK Compendium/images/heroes/Dreaf sigitem.png',
+        'img': 'images\\heroes\\Dreaf.png',
+        'sig_img': 'images\\items\\Dreaf sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Noxious Seeds',
@@ -399,10 +399,10 @@ heroes_dict = {
     'Drez' : {
         'name': 'Drez',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Drez.png',
-        'sig_img': 'AFK Compendium/images/heroes/Drez sigitem.png',
+        'img': 'images\\heroes\\Drez.png',
+        'sig_img': 'images\\items\\Drez sigitem.png',
         'sig': 'Ivory Piercer',
         'skills': {
             'skill_1': 'Deadly Ambush',
@@ -417,10 +417,10 @@ heroes_dict = {
     'Eironn' : {
         'name': 'Eironn',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Eironn.png',
-        'sig_img': 'AFK Compendium/images/heroes/Eironn sigitem.png',
+        'img': 'images\\heroes\\Eironn.png',
+        'sig_img': 'images\\items\\Eironn sigitem.png',
         'sig': 'Elemental Blades',
         'skills': {
             'skill_1': 'Elemental Surge',
@@ -435,10 +435,10 @@ heroes_dict = {
     'Eletha' : {
         'name': 'Eletha',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Eletha.png',
-        'sig_img': 'AFK Compendium/images/heroes/Eletha sigitem.png',
+        'img': 'images\\heroes\\Eletha.png',
+        'sig_img': 'images\\items\\Eletha sigitem.png',
         'sig': '',
         'skills': {
     "        'skill_1': 'Piercing Blow	',"
@@ -453,10 +453,10 @@ heroes_dict = {
     'Elijah & Lailah' : {
         'name': 'Elijah & Lailah',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Elijah & Lailah.png',
-        'sig_img': 'AFK Compendium/images/heroes/Elijah & Lailah sigitem.png',
+        'img': 'images\\heroes\\Elijah & Lailah.png',
+        'sig_img': 'images\\items\\Elijah & Lailah sigitem.png',
         'sig': 'Bonding Feathers',
         'skills': {
             'skill_1': 'Hope',
@@ -471,10 +471,10 @@ heroes_dict = {
     'Eluard' : {
         'name': 'Eluard',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Eluard.png',
-        'sig_img': 'AFK Compendium/images/heroes/Eluard sigitem.png',
+        'img': 'images\\heroes\\Eluard.png',
+        'sig_img': 'images\\items\\Eluard sigitem.png',
         'sig': 'Golden Visage',
         'skills': {
             'skill_1': 'Sanctimony',
@@ -489,10 +489,10 @@ heroes_dict = {
     'Estrilda' : {
         'name': 'Estrilda',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Estrilda.png',
-        'sig_img': 'AFK Compendium/images/heroes/Estrilda sigitem.png',
+        'img': 'images\\heroes\\Estrilda.png',
+        'sig_img': 'images\\items\\Estrilda sigitem.png',
         'sig': 'Banner Of Rayne',
         'skills': {
             'skill_1': 'Joust',
@@ -507,10 +507,10 @@ heroes_dict = {
     'Ezio' : {
         'name': 'Ezio',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Ezio.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ezio sigitem.png',
+        'img': 'images\\heroes\\Ezio.png',
+        'sig_img': 'images\\items\\Ezio sigitem.png',
         'sig': 'Hidden Blade',
         'skills': {
             'skill_1': 'Eagle Vision',
@@ -525,10 +525,10 @@ heroes_dict = {
     'Ezizh' : {
         'name': 'Ezizh',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Ezizh.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ezizh sigitem.png',
+        'img': 'images\\heroes\\Ezizh.png',
+        'sig_img': 'images\\items\\Ezizh sigitem.png',
         'sig': 'Armor Of Ruin',
         'skills': {
             'skill_1': 'Fissure',
@@ -543,10 +543,10 @@ heroes_dict = {
     'Fane' : {
         'name': 'Fane',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Fane.png',
-        'sig_img': 'AFK Compendium/images/heroes/Fane sigitem.png',
+        'img': 'images\\heroes\\Fane.png',
+        'sig_img': 'images\\items\\Fane sigitem.png',
         'sig': 'Bone Hook',
         'skills': {
             'skill_1': 'Malign Judgement',
@@ -561,10 +561,10 @@ heroes_dict = {
     'Fawkes' : {
         'name': 'Fawkes',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Fawkes.png',
-        'sig_img': 'AFK Compendium/images/heroes/Fawkes sigitem.png',
+        'img': 'images\\heroes\\Fawkes.png',
+        'sig_img': 'images\\items\\Fawkes sigitem.png',
         'sig': 'The Soul Prision',
         'skills': {
             'skill_1': 'Purification',
@@ -579,10 +579,10 @@ heroes_dict = {
     'Ferael' : {
         'name': 'Ferael',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Ferael.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ferael sigitem.png',
+        'img': 'images\\heroes\\Ferael.png',
+        'sig_img': 'images\\items\\Ferael sigitem.png',
         'sig': 'HaunterS Hand',
         'skills': {
             'skill_1': 'Nether Blaze',
@@ -597,10 +597,10 @@ heroes_dict = {
     'Flora' : {
         'name': 'Flora',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Flora.png',
-        'sig_img': 'AFK Compendium/images/heroes/Flora sigitem.png',
+        'img': 'images\\heroes\\Flora.png',
+        'sig_img': 'images\\items\\Flora sigitem.png',
         'sig': 'The Serene Branch',
         'skills': {
             'skill_1': 'Sea of Flowers',
@@ -615,10 +615,10 @@ heroes_dict = {
     'Framton' : {
         'name': 'Framton',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Framton.png',
-        'sig_img': 'AFK Compendium/images/heroes/Framton sigitem.png',
+        'img': 'images\\heroes\\Framton.png',
+        'sig_img': 'images\\items\\Framton sigitem.png',
         'sig': 'Blaze Vambraces',
         'skills': {
             'skill_1': 'Blazing Meteor',
@@ -633,10 +633,10 @@ heroes_dict = {
     'Golus' : {
         'name': 'Golus',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Golus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Golus sigitem.png',
+        'img': 'images\\heroes\\Golus.png',
+        'sig_img': 'images\\items\\Golus sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Collision',
@@ -651,10 +651,10 @@ heroes_dict = {
     'Gorvo' : {
         'name': 'Gorvo',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Gorvo.png',
-        'sig_img': 'AFK Compendium/images/heroes/Gorvo sigitem.png',
+        'img': 'images\\heroes\\Gorvo.png',
+        'sig_img': 'images\\items\\Gorvo sigitem.png',
         'sig': 'Gate Crasher',
         'skills': {
             'skill_1': 'Battle Cry',
@@ -669,10 +669,10 @@ heroes_dict = {
     'Granit' : {
         'name': 'Granit',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Granit.png',
-        'sig_img': 'AFK Compendium/images/heroes/Granit sigitem.png',
+        'img': 'images\\heroes\\Granit.png',
+        'sig_img': 'images\\items\\Granit sigitem.png',
         'sig': 'DesertS Core',
         'skills': {
             'skill_1': 'Sand Vortex',
@@ -687,10 +687,10 @@ heroes_dict = {
     'Grezhul' : {
         'name': 'Grezhul',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Grezhul.png',
-        'sig_img': 'AFK Compendium/images/heroes/Grezhul sigitem.png',
+        'img': 'images\\heroes\\Grezhul.png',
+        'sig_img': 'images\\items\\Grezhul sigitem.png',
         'sig': 'The Slayer Blades',
         'skills': {
             'skill_1': 'Reanimate',
@@ -705,10 +705,10 @@ heroes_dict = {
     'Gwyneth' : {
         'name': 'Gwyneth',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Gwyneth.png',
-        'sig_img': 'AFK Compendium/images/heroes/Gwyneth sigitem.png',
+        'img': 'images\\heroes\\Gwyneth.png',
+        'sig_img': 'images\\items\\Gwyneth sigitem.png',
         'sig': 'Shooting Star',
         'skills': {
             'skill_1': 'Divine Arrow',
@@ -723,10 +723,10 @@ heroes_dict = {
     'Haelus' : {
         'name': 'Haelus',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Haelus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Haelus sigitem.png',
+        'img': 'images\\heroes\\Haelus.png',
+        'sig_img': 'images\\items\\Haelus sigitem.png',
         'sig': 'The Peerless Obelisk',
         'skills': {
             'skill_1': 'Laws of Creation',
@@ -741,10 +741,10 @@ heroes_dict = {
     'Hendrik' : {
         'name': 'Hendrik',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Hendrik.png',
-        'sig_img': 'AFK Compendium/images/heroes/Hendrik sigitem.png',
+        'img': 'images\\heroes\\Hendrik.png',
+        'sig_img': 'images\\items\\Hendrik sigitem.png',
         'sig': 'The Bastion',
         'skills': {
             'skill_1': 'Crippling Blow',
@@ -759,10 +759,10 @@ heroes_dict = {
     'Hodgkin' : {
         'name': 'Hodgkin',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Hodgkin.png',
-        'sig_img': 'AFK Compendium/images/heroes/Hodgkin sigitem.png',
+        'img': 'images\\heroes\\Hodgkin.png',
+        'sig_img': 'images\\items\\Hodgkin sigitem.png',
         'sig': 'Soul Devourers',
         'skills': {
             'skill_1': 'The Immortal',
@@ -777,10 +777,10 @@ heroes_dict = {
     'Hogan' : {
         'name': 'Hogan',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Hogan.png',
-        'sig_img': 'AFK Compendium/images/heroes/Hogan sigitem.png',
+        'img': 'images\\heroes\\Hogan.png',
+        'sig_img': 'images\\items\\Hogan sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Knights Fury',
@@ -795,10 +795,10 @@ heroes_dict = {
     'Ira' : {
         'name': 'Ira',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Ira.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ira sigitem.png',
+        'img': 'images\\heroes\\Ira.png',
+        'sig_img': 'images\\items\\Ira sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Hail of Arrows',
@@ -813,10 +813,10 @@ heroes_dict = {
     'Isabella' : {
         'name': 'Isabella',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Isabella.png',
-        'sig_img': 'AFK Compendium/images/heroes/Isabella sigitem.png',
+        'img': 'images\\heroes\\Isabella.png',
+        'sig_img': 'images\\items\\Isabella sigitem.png',
         'sig': 'Tome Of The Dead',
         'skills': {
             'skill_1': 'Decimation',
@@ -831,10 +831,10 @@ heroes_dict = {
     'Izold' : {
         'name': 'Izold',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Izold.png',
-        'sig_img': 'AFK Compendium/images/heroes/Izold sigitem.png',
+        'img': 'images\\heroes\\Izold.png',
+        'sig_img': 'images\\items\\Izold sigitem.png',
         'sig': 'Doomstriker Syringe',
         'skills': {
             'skill_1': 'Toxic Transfusion',
@@ -849,10 +849,10 @@ heroes_dict = {
     'Joker' : {
         'name': 'Joker',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Joker.png',
-        'sig_img': 'AFK Compendium/images/heroes/Joker sigitem.png',
+        'img': 'images\\heroes\\Joker.png',
+        'sig_img': 'images\\items\\Joker sigitem.png',
         'sig': 'Vile Sword',
         'skills': {
             'skill_1': 'Maeigaon',
@@ -867,10 +867,10 @@ heroes_dict = {
     'Kaz' : {
         'name': 'Kaz',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Kaz.png',
-        'sig_img': 'AFK Compendium/images/heroes/Kaz sigitem.png',
+        'img': 'images\\heroes\\Kaz.png',
+        'sig_img': 'images\\items\\Kaz sigitem.png',
         'sig': 'The NightS Kiss',
         'skills': {
             'skill_1': 'Assassinate',
@@ -885,10 +885,10 @@ heroes_dict = {
     'Kelthur' : {
         'name': 'Kelthur',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Kelthur.png',
-        'sig_img': 'AFK Compendium/images/heroes/Kelthur sigitem.png',
+        'img': 'images\\heroes\\Kelthur.png',
+        'sig_img': 'images\\items\\Kelthur sigitem.png',
         'sig': 'The Harvester',
         'skills': {
             'skill_1': 'Blades of Fury',
@@ -903,10 +903,10 @@ heroes_dict = {
     'Khasos' : {
         'name': 'Khasos',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Khasos.png',
-        'sig_img': 'AFK Compendium/images/heroes/Khasos sigitem.png',
+        'img': 'images\\heroes\\Khasos.png',
+        'sig_img': 'images\\items\\Khasos sigitem.png',
         'sig': 'Chief Choppers',
         'skills': {
             'skill_1': 'Spinning Obliteration',
@@ -921,10 +921,10 @@ heroes_dict = {
     'Khazard' : {
         'name': 'Khazard',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Khazard.png',
-        'sig_img': 'AFK Compendium/images/heroes/Khazard sigitem.png',
+        'img': 'images\\heroes\\Khazard.png',
+        'sig_img': 'images\\items\\Khazard sigitem.png',
         'sig': 'The Frigid Aura',
         'skills': {
             'skill_1': 'Frozen Mist',
@@ -939,10 +939,10 @@ heroes_dict = {
     'Kren' : {
         'name': 'Kren',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Kren.png',
-        'sig_img': 'AFK Compendium/images/heroes/Kren sigitem.png',
+        'img': 'images\\heroes\\Kren.png',
+        'sig_img': 'images\\items\\Kren sigitem.png',
         'sig': '“Hot Stuff” & “Lady”',
         'skills': {
             'skill_1': 'Bomb Voyage',
@@ -957,10 +957,10 @@ heroes_dict = {
     'Leofric' : {
         'name': 'Leofric',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Leofric.png',
-        'sig_img': 'AFK Compendium/images/heroes/Leofric sigitem.png',
+        'img': 'images\\heroes\\Leofric.png',
+        'sig_img': 'images\\items\\Leofric sigitem.png',
         'sig': 'Shadow Mastiff Cane',
         'skills': {
             'skill_1': 'Shadow Mastiff',
@@ -975,10 +975,10 @@ heroes_dict = {
     'Leonardo' : {
         'name': 'Leonardo',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Leonardo.png',
-        'sig_img': 'AFK Compendium/images/heroes/Leonardo sigitem.png',
+        'img': 'images\\heroes\\Leonardo.png',
+        'sig_img': 'images\\items\\Leonardo sigitem.png',
         'sig': 'The Creator',
         'skills': {
             'skill_1': 'Work of Art',
@@ -993,10 +993,10 @@ heroes_dict = {
     'Lorsan' : {
         'name': 'Lorsan',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Lorsan.png',
-        'sig_img': 'AFK Compendium/images/heroes/Lorsan sigitem.png',
+        'img': 'images\\heroes\\Lorsan.png',
+        'sig_img': 'images\\items\\Lorsan sigitem.png',
         'sig': 'Wind Keeper',
         'skills': {
             'skill_1': 'Tempest',
@@ -1011,10 +1011,10 @@ heroes_dict = {
     'Lucius' : {
         'name': 'Lucius',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Lucius.png',
-        'sig_img': 'AFK Compendium/images/heroes/Lucius sigitem.png',
+        'img': 'images\\heroes\\Lucius.png',
+        'sig_img': 'images\\items\\Lucius sigitem.png',
         'sig': 'The Winged Protector',
         'skills': {
             'skill_1': 'Heavens Protection',
@@ -1029,10 +1029,10 @@ heroes_dict = {
     'Lucretia' : {
         'name': 'Lucretia',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Lucretia.png',
-        'sig_img': 'AFK Compendium/images/heroes/Lucretia sigitem.png',
+        'img': 'images\\heroes\\Lucretia.png',
+        'sig_img': 'images\\items\\Lucretia sigitem.png',
         'sig': 'Dark Star',
         'skills': {
             'skill_1': 'Ungodly Defiance',
@@ -1047,10 +1047,10 @@ heroes_dict = {
     'Lyca' : {
         'name': 'Lyca',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Lyca.png',
-        'sig_img': 'AFK Compendium/images/heroes/Lyca sigitem.png',
+        'img': 'images\\heroes\\Lyca.png',
+        'sig_img': 'images\\items\\Lyca sigitem.png',
         'sig': 'Starfall',
         'skills': {
             'skill_1': 'Star Shot',
@@ -1065,10 +1065,10 @@ heroes_dict = {
     'Mehira' : {
         'name': 'Mehira',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Mehira.png',
-        'sig_img': 'AFK Compendium/images/heroes/Mehira sigitem.png',
+        'img': 'images\\heroes\\Mehira.png',
+        'sig_img': 'images\\items\\Mehira sigitem.png',
         'sig': 'Lash Of Submission',
         'skills': {
             'skill_1': 'Mesmerize',
@@ -1083,10 +1083,10 @@ heroes_dict = {
     'Melusina' : {
         'name': 'Melusina',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Melusina.png',
-        'sig_img': 'AFK Compendium/images/heroes/Melusina sigitem.png',
+        'img': 'images\\heroes\\Melusina.png',
+        'sig_img': 'images\\items\\Melusina sigitem.png',
         'sig': 'Staff Of Domination',
         'skills': {
             'skill_1': 'Dropping By',
@@ -1101,10 +1101,10 @@ heroes_dict = {
     'Merek' : {
         'name': 'Merek',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Merek.png',
-        'sig_img': 'AFK Compendium/images/heroes/Merek sigitem.png',
+        'img': 'images\\heroes\\Merek.png',
+        'sig_img': 'images\\items\\Merek sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Divine Blessing',
@@ -1119,10 +1119,10 @@ heroes_dict = {
     'Merlin' : {
         'name': 'Merlin',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Merlin.png',
-        'sig_img': 'AFK Compendium/images/heroes/Merlin sigitem.png',
+        'img': 'images\\heroes\\Merlin.png',
+        'sig_img': 'images\\items\\Merlin sigitem.png',
         'sig': 'DestinyS Sight',
         'skills': {
             'skill_1': 'Destiny Foreseen',
@@ -1137,10 +1137,10 @@ heroes_dict = {
     'Mezoth' : {
         'name': 'Mezoth',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Mezoth.png',
-        'sig_img': 'AFK Compendium/images/heroes/Mezoth sigitem.png',
+        'img': 'images\\heroes\\Mezoth.png',
+        'sig_img': 'images\\items\\Mezoth sigitem.png',
         'sig': 'Blood And Gore',
         'skills': {
             'skill_1': 'Devour',
@@ -1155,10 +1155,10 @@ heroes_dict = {
     'Mirael' : {
         'name': 'Mirael',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Mirael.png',
-        'sig_img': 'AFK Compendium/images/heroes/Mirael sigitem.png',
+        'img': 'images\\heroes\\Mirael.png',
+        'sig_img': 'images\\items\\Mirael sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Fire Phoenix',
@@ -1173,10 +1173,10 @@ heroes_dict = {
     'Mishka' : {
         'name': 'Mishka',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Mishka.png',
-        'sig_img': 'AFK Compendium/images/heroes/Mishka sigitem.png',
+        'img': 'images\\heroes\\Mishka.png',
+        'sig_img': 'images\\items\\Mishka sigitem.png',
         'sig': 'Bear Talons',
         'skills': {
             'skill_1': 'Werebear',
@@ -1191,10 +1191,10 @@ heroes_dict = {
     'Morael' : {
         'name': 'Morael',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Morael.png',
-        'sig_img': 'AFK Compendium/images/heroes/Morael sigitem.png',
+        'img': 'images\\heroes\\Morael.png',
+        'sig_img': 'images\\items\\Morael sigitem.png',
         'sig': 'Heart Of Zohra',
         'skills': {
             'skill_1': 'Cosmic Field',
@@ -1209,10 +1209,10 @@ heroes_dict = {
     'Morrow' : {
         'name': 'Morrow',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Morrow.png',
-        'sig_img': 'AFK Compendium/images/heroes/Morrow sigitem.png',
+        'img': 'images\\heroes\\Morrow.png',
+        'sig_img': 'images\\items\\Morrow sigitem.png',
         'sig': 'Abyssal Tome',
         'skills': {
             'skill_1': 'Eye of Evil',
@@ -1227,10 +1227,10 @@ heroes_dict = {
     'Mortas' : {
         'name': 'Mortas',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Mortas.png',
-        'sig_img': 'AFK Compendium/images/heroes/Mortas sigitem.png',
+        'img': 'images\\heroes\\Mortas.png',
+        'sig_img': 'images\\items\\Mortas sigitem.png',
         'sig': 'Deception',
         'skills': {
             'skill_1': 'Empowerment',
@@ -1245,10 +1245,10 @@ heroes_dict = {
     'Morvus' : {
         'name': 'Morvus',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Morvus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Morvus sigitem.png',
+        'img': 'images\\heroes\\Morvus.png',
+        'sig_img': 'images\\items\\Morvus sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Sharpshooter',
@@ -1263,10 +1263,10 @@ heroes_dict = {
     'Nakoruru' : {
         'name': 'Nakoruru',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Nakoruru.png',
-        'sig_img': 'AFK Compendium/images/heroes/Nakoruru sigitem.png',
+        'img': 'images\\heroes\\Nakoruru.png',
+        'sig_img': 'images\\items\\Nakoruru sigitem.png',
         'sig': 'Chichi-Ushi',
         'skills': {
             'skill_1': 'Running Chest Jab',
@@ -1281,10 +1281,10 @@ heroes_dict = {
     'Nara' : {
         'name': 'Nara',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Nara.png',
-        'sig_img': 'AFK Compendium/images/heroes/Nara sigitem.png',
+        'img': 'images\\heroes\\Nara.png',
+        'sig_img': 'images\\items\\Nara sigitem.png',
         'sig': 'Bloodshed',
         'skills': {
             'skill_1': 'Butchery',
@@ -1299,10 +1299,10 @@ heroes_dict = {
     'Nemora' : {
         'name': 'Nemora',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Nemora.png',
-        'sig_img': 'AFK Compendium/images/heroes/Nemora sigitem.png',
+        'img': 'images\\heroes\\Nemora.png',
+        'sig_img': 'images\\items\\Nemora sigitem.png',
         'sig': 'The Blossom Spear',
         'skills': {
             'skill_1': 'Wild Wonder',
@@ -1317,10 +1317,10 @@ heroes_dict = {
     'Niru' : {
         'name': 'Niru',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Niru.png',
-        'sig_img': 'AFK Compendium/images/heroes/Niru sigitem.png',
+        'img': 'images\\heroes\\Niru.png',
+        'sig_img': 'images\\items\\Niru sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Death Call',
@@ -1335,10 +1335,10 @@ heroes_dict = {
     'Numisu' : {
         'name': 'Numisu',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Numisu.png',
-        'sig_img': 'AFK Compendium/images/heroes/Numisu sigitem.png',
+        'img': 'images\\heroes\\Numisu.png',
+        'sig_img': 'images\\items\\Numisu sigitem.png',
         'sig': 'Mask Of Visions',
         'skills': {
             'skill_1': 'Resonating Blast',
@@ -1353,10 +1353,10 @@ heroes_dict = {
     'Oden' : {
         'name': 'Oden',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Oden.png',
-        'sig_img': 'AFK Compendium/images/heroes/Oden sigitem.png',
+        'img': 'images\\heroes\\Oden.png',
+        'sig_img': 'images\\items\\Oden sigitem.png',
         'sig': 'Void Gazer',
         'skills': {
             'skill_1': 'Soul Burn',
@@ -1371,10 +1371,10 @@ heroes_dict = {
     'Ogi' : {
         'name': 'Ogi',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Ogi.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ogi sigitem.png',
+        'img': 'images\\heroes\\Ogi.png',
+        'sig_img': 'images\\items\\Ogi sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Resilience',
@@ -1389,10 +1389,10 @@ heroes_dict = {
     'Oku' : {
         'name': 'Oku',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Oku.png',
-        'sig_img': 'AFK Compendium/images/heroes/Oku sigitem.png',
+        'img': 'images\\heroes\\Oku.png',
+        'sig_img': 'images\\items\\Oku sigitem.png',
         'sig': 'Chitinous Shield',
         'skills': {
             'skill_1': 'Trembling Mountain',
@@ -1407,10 +1407,10 @@ heroes_dict = {
     'Orthros' : {
         'name': 'Orthros',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Orthros.png',
-        'sig_img': 'AFK Compendium/images/heroes/Orthros sigitem.png',
+        'img': 'images\\heroes\\Orthros.png',
+        'sig_img': 'images\\items\\Orthros sigitem.png',
         'sig': 'The Heavenly Vision',
         'skills': {
             'skill_1': 'Time Suspension',
@@ -1425,10 +1425,10 @@ heroes_dict = {
     'Oscar' : {
         'name': 'Oscar',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Oscar.png',
-        'sig_img': 'AFK Compendium/images/heroes/Oscar sigitem.png',
+        'img': 'images\\heroes\\Oscar.png',
+        'sig_img': 'images\\items\\Oscar sigitem.png',
         'sig': 'Exquisite Table Knife',
         'skills': {
             'skill_1': 'Aura of Haste',
@@ -1443,10 +1443,10 @@ heroes_dict = {
     'Peggy' : {
         'name': 'Peggy',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Regen',
-        'img': 'AFK Compendium/images/heroes/Peggy.png',
-        'sig_img': 'AFK Compendium/images/heroes/Peggy sigitem.png',
+        'img': 'images\\heroes\\Peggy.png',
+        'sig_img': 'images\\items\\Peggy sigitem.png',
         'sig': 'Gorgeous Conch',
         'skills': {
             'skill_1': 'Duty Bound',
@@ -1461,10 +1461,10 @@ heroes_dict = {
     'Pippa' : {
         'name': 'Pippa',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Pippa.png',
-        'sig_img': 'AFK Compendium/images/heroes/Pippa sigitem.png',
+        'img': 'images\\heroes\\Pippa.png',
+        'sig_img': 'images\\items\\Pippa sigitem.png',
         'sig': 'Branch Of Verdure',
         'skills': {
             'skill_1': 'Pippas Imitation',
@@ -1479,10 +1479,10 @@ heroes_dict = {
     'Prince of Persia' : {
         'name': 'Prince of Persia',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Prince of Persia.png',
-        'sig_img': 'AFK Compendium/images/heroes/Prince of Persia sigitem.png',
+        'img': 'images\\heroes\\Prince of Persia.png',
+        'sig_img': 'images\\items\\Prince of Persia sigitem.png',
         'sig': 'Dagger Of Time',
         'skills': {
             'skill_1': 'Sands of Time',
@@ -1497,10 +1497,10 @@ heroes_dict = {
     'Queen' : {
         'name': 'Queen',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Queen.png',
-        'sig_img': 'AFK Compendium/images/heroes/Queen sigitem.png',
+        'img': 'images\\heroes\\Queen.png',
+        'sig_img': 'images\\items\\Queen sigitem.png',
         'sig': 'Sanction',
         'skills': {
             'skill_1': 'Stationary Drifter',
@@ -1515,10 +1515,10 @@ heroes_dict = {
     'Raine' : {
         'name': 'Raine',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Raine.png',
-        'sig_img': 'AFK Compendium/images/heroes/Raine sigitem.png',
+        'img': 'images\\heroes\\Raine.png',
+        'sig_img': 'images\\items\\Raine sigitem.png',
         'sig': 'Dueling Blasters',
         'skills': {
             'skill_1': 'Cripple',
@@ -1533,10 +1533,10 @@ heroes_dict = {
     'Raku' : {
         'name': 'Raku',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Raku.png',
-        'sig_img': 'AFK Compendium/images/heroes/Raku sigitem.png',
+        'img': 'images\\heroes\\Raku.png',
+        'sig_img': 'images\\items\\Raku sigitem.png',
         'sig': 'Elemental Slingshot',
         'skills': {
             'skill_1': 'Acorn Cannon',
@@ -1551,10 +1551,10 @@ heroes_dict = {
     'Respen' : {
         'name': 'Respen',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Respen.png',
-        'sig_img': 'AFK Compendium/images/heroes/Respen sigitem.png',
+        'img': 'images\\heroes\\Respen.png',
+        'sig_img': 'images\\items\\Respen sigitem.png',
         'sig': 'Mark Of The Wild',
         'skills': {
             'skill_1': 'Wind Spiral',
@@ -1569,10 +1569,10 @@ heroes_dict = {
     'Rigby' : {
         'name': 'Rigby',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Rigby.png',
-        'sig_img': 'AFK Compendium/images/heroes/Rigby sigitem.png',
+        'img': 'images\\heroes\\Rigby.png',
+        'sig_img': 'images\\items\\Rigby sigitem.png',
         'sig': 'Oak Barrel',
         'skills': {
             'skill_1': 'Barrel Bomb',
@@ -1587,10 +1587,10 @@ heroes_dict = {
     'Rosaline' : {
         'name': 'Rosaline',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Rosaline.png',
-        'sig_img': 'AFK Compendium/images/heroes/Rosaline sigitem.png',
+        'img': 'images\\heroes\\Rosaline.png',
+        'sig_img': 'images\\items\\Rosaline sigitem.png',
         'sig': 'Servitude',
         'skills': {
             'skill_1': 'Motivation',
@@ -1605,10 +1605,10 @@ heroes_dict = {
     'Rowan' : {
         'name': 'Rowan',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Rowan.png',
-        'sig_img': 'AFK Compendium/images/heroes/Rowan sigitem.png',
+        'img': 'images\\heroes\\Rowan.png',
+        'sig_img': 'images\\items\\Rowan sigitem.png',
         'sig': 'The Gold Chime',
         'skills': {
             'skill_1': 'Dazzle',
@@ -1623,10 +1623,10 @@ heroes_dict = {
     'Safiya' : {
         'name': 'Safiya',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Safiya.png',
-        'sig_img': 'AFK Compendium/images/heroes/Safiya sigitem.png',
+        'img': 'images\\heroes\\Safiya.png',
+        'sig_img': 'images\\items\\Safiya sigitem.png',
         'sig': 'Supremacy',
         'skills': {
             'skill_1': 'Falling Sun',
@@ -1641,10 +1641,10 @@ heroes_dict = {
     'Satrana' : {
         'name': 'Satrana',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Satrana.png',
-        'sig_img': 'AFK Compendium/images/heroes/Satrana sigitem.png',
+        'img': 'images\\heroes\\Satrana.png',
+        'sig_img': 'images\\items\\Satrana sigitem.png',
         'sig': 'Blazing Ember',
         'skills': {
             'skill_1': 'Firedance',
@@ -1659,10 +1659,10 @@ heroes_dict = {
     'Saurus' : {
         'name': 'Saurus',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Saurus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Saurus sigitem.png',
+        'img': 'images\\heroes\\Saurus.png',
+        'sig_img': 'images\\items\\Saurus sigitem.png',
         'sig': 'Hope’S Edge',
         'skills': {
             'skill_1': 'Phase Form',
@@ -1677,10 +1677,10 @@ heroes_dict = {
     'Saveas' : {
         'name': 'Saveas',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Saveas.png',
-        'sig_img': 'AFK Compendium/images/heroes/Saveas sigitem.png',
+        'img': 'images\\heroes\\Saveas.png',
+        'sig_img': 'images\\items\\Saveas sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Burning Acrimony',
@@ -1695,10 +1695,10 @@ heroes_dict = {
     'Scarlet' : {
         'name': 'Scarlet',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Scarlet.png',
-        'sig_img': 'AFK Compendium/images/heroes/Scarlet sigitem.png',
+        'img': 'images\\heroes\\Scarlet.png',
+        'sig_img': 'images\\items\\Scarlet sigitem.png',
         'sig': 'Arcane Stabilizer',
         'skills': {
             'skill_1': 'Dark Rage',
@@ -1713,10 +1713,10 @@ heroes_dict = {
     'Seirus' : {
         'name': 'Seirus',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Seirus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Seirus sigitem.png',
+        'img': 'images\\heroes\\Seirus.png',
+        'sig_img': 'images\\items\\Seirus sigitem.png',
         'sig': 'Tidemaker',
         'skills': {
             'skill_1': 'Abhorrent Torrent',
@@ -1731,10 +1731,10 @@ heroes_dict = {
     'Sezis' : {
         'name': 'Sezis',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Sezis.png',
-        'sig_img': 'AFK Compendium/images/heroes/Sezis sigitem.png',
+        'img': 'images\\heroes\\Sezis.png',
+        'sig_img': 'images\\items\\Sezis sigitem.png',
         'sig': '',
         'skills': {
     "        'skill_1': 'Grim Swipe	',"
@@ -1749,10 +1749,10 @@ heroes_dict = {
     'Shemira' : {
         'name': 'Shemira',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Shemira.png',
-        'sig_img': 'AFK Compendium/images/heroes/Shemira sigitem.png',
+        'img': 'images\\heroes\\Shemira.png',
+        'sig_img': 'images\\items\\Shemira sigitem.png',
         'sig': 'The Spirit Orb',
         'skills': {
             'skill_1': 'Tortured Souls',
@@ -1767,10 +1767,10 @@ heroes_dict = {
     'Silas' : {
         'name': 'Silas',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Silas.png',
-        'sig_img': 'AFK Compendium/images/heroes/Silas sigitem.png',
+        'img': 'images\\heroes\\Silas.png',
+        'sig_img': 'images\\items\\Silas sigitem.png',
         'sig': 'Augmentation Blades',
         'skills': {
             'skill_1': 'Injected Fury',
@@ -1785,10 +1785,10 @@ heroes_dict = {
     'Silvina' : {
         'name': 'Silvina',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Burst Damage',
-        'img': 'AFK Compendium/images/heroes/Silvina.png',
-        'sig_img': 'AFK Compendium/images/heroes/Silvina sigitem.png',
+        'img': 'images\\heroes\\Silvina.png',
+        'sig_img': 'images\\items\\Silvina sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Fatal Strike',
@@ -1803,10 +1803,10 @@ heroes_dict = {
     'Skreg' : {
         'name': 'Skreg',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Skreg.png',
-        'sig_img': 'AFK Compendium/images/heroes/Skreg sigitem.png',
+        'img': 'images\\heroes\\Skreg.png',
+        'sig_img': 'images\\items\\Skreg sigitem.png',
         'sig': 'Long Fang',
         'skills': {
             'skill_1': 'Beast of Burden',
@@ -1821,10 +1821,10 @@ heroes_dict = {
     'Skriath' : {
         'name': 'Skriath',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Skriath.png',
-        'sig_img': 'AFK Compendium/images/heroes/Skriath sigitem.png',
+        'img': 'images\\heroes\\Skriath.png',
+        'sig_img': 'images\\items\\Skriath sigitem.png',
         'sig': 'Wisdom Keeper',
         'skills': {
             'skill_1': 'Desert Vortex',
@@ -1839,10 +1839,10 @@ heroes_dict = {
     'Solise' : {
         'name': 'Solise',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Solise.png',
-        'sig_img': 'AFK Compendium/images/heroes/Solise sigitem.png',
+        'img': 'images\\heroes\\Solise.png',
+        'sig_img': 'images\\items\\Solise sigitem.png',
         'sig': 'Floral Cloak Of Hope',
         'skills': {
             'skill_1': 'Blossom Fall',
@@ -1857,10 +1857,10 @@ heroes_dict = {
     'Steixius' : {
         'name': 'Steixius',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Debuffer',
-        'img': 'AFK Compendium/images/heroes/Steixius.png',
-        'sig_img': 'AFK Compendium/images/heroes/Steixius sigitem.png',
+        'img': 'images\\heroes\\Steixius.png',
+        'sig_img': 'images\\items\\Steixius sigitem.png',
         'sig': '',
         'skills': {
     "        'skill_1': 'Fouled Cleave	',"
@@ -1875,10 +1875,10 @@ heroes_dict = {
     'Talene' : {
         'name': 'Talene',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Talene.png',
-        'sig_img': 'AFK Compendium/images/heroes/Talene sigitem.png',
+        'img': 'images\\heroes\\Talene.png',
+        'sig_img': 'images\\items\\Talene sigitem.png',
         'sig': 'Heart Of The Phoenix',
         'skills': {
             'skill_1': 'Fire Born',
@@ -1893,10 +1893,10 @@ heroes_dict = {
     'Tasi' : {
         'name': 'Tasi',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Tasi.png',
-        'sig_img': 'AFK Compendium/images/heroes/Tasi sigitem.png',
+        'img': 'images\\heroes\\Tasi.png',
+        'sig_img': 'images\\items\\Tasi sigitem.png',
         'sig': 'The Dream Halo',
         'skills': {
             'skill_1': 'SLUMBER',
@@ -1911,10 +1911,10 @@ heroes_dict = {
     'Thali' : {
         'name': 'Thali',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Thali.png',
-        'sig_img': 'AFK Compendium/images/heroes/Thali sigitem.png',
+        'img': 'images\\heroes\\Thali.png',
+        'sig_img': 'images\\items\\Thali sigitem.png',
         'sig': 'Red Almandine',
         'skills': {
             'skill_1': 'Pyromaniac',
@@ -1929,10 +1929,10 @@ heroes_dict = {
     'Thane' : {
         'name': 'Thane',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Thane.png',
-        'sig_img': 'AFK Compendium/images/heroes/Thane sigitem.png',
+        'img': 'images\\heroes\\Thane.png',
+        'sig_img': 'images\\items\\Thane sigitem.png',
         'sig': 'The Lotus Blade',
         'skills': {
             'skill_1': 'Eviscerate',
@@ -1947,10 +1947,10 @@ heroes_dict = {
     'Theowyn' : {
         'name': 'Theowyn',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Theowyn.png',
-        'sig_img': 'AFK Compendium/images/heroes/Theowyn sigitem.png',
+        'img': 'images\\heroes\\Theowyn.png',
+        'sig_img': 'images\\items\\Theowyn sigitem.png',
         'sig': 'Crown Of Thorns',
         'skills': {
             'skill_1': 'Spectral Divergence',
@@ -1965,10 +1965,10 @@ heroes_dict = {
     'Thesku' : {
         'name': 'Thesku',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Thesku.png',
-        'sig_img': 'AFK Compendium/images/heroes/Thesku sigitem.png',
+        'img': 'images\\heroes\\Thesku.png',
+        'sig_img': 'images\\items\\Thesku sigitem.png',
         'sig': 'Bone Flute',
         'skills': {
             'skill_1': 'Ancient Terror',
@@ -1983,10 +1983,10 @@ heroes_dict = {
     'Thoran' : {
         'name': 'Thoran',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Thoran.png',
-        'sig_img': 'AFK Compendium/images/heroes/Thoran sigitem.png',
+        'img': 'images\\heroes\\Thoran.png',
+        'sig_img': 'images\\items\\Thoran sigitem.png',
         'sig': 'The Vengeful Crown',
         'skills': {
             'skill_1': 'Retaliation',
@@ -2001,10 +2001,10 @@ heroes_dict = {
     'Tidus' : {
         'name': 'Tidus',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Tidus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Tidus sigitem.png',
+        'img': 'images\\heroes\\Tidus.png',
+        'sig_img': 'images\\items\\Tidus sigitem.png',
         'sig': 'Hatred’S Bite',
         'skills': {
             'skill_1': 'Twisted Fate',
@@ -2019,10 +2019,10 @@ heroes_dict = {
     'Titus' : {
         'name': 'Titus',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Titus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Titus sigitem.png',
+        'img': 'images\\heroes\\Titus.png',
+        'sig_img': 'images\\items\\Titus sigitem.png',
         'sig': 'Mountain Star',
         'skills': {
             'skill_1': 'Temple Guardian',
@@ -2037,10 +2037,10 @@ heroes_dict = {
     'Torne' : {
         'name': 'Torne',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Torne.png',
-        'sig_img': 'AFK Compendium/images/heroes/Torne sigitem.png',
+        'img': 'images\\heroes\\Torne.png',
+        'sig_img': 'images\\items\\Torne sigitem.png',
         'sig': 'WandererS Plight',
         'skills': {
             'skill_1': 'Piercing Bones',
@@ -2055,10 +2055,10 @@ heroes_dict = {
     'Treznor' : {
         'name': 'Treznor',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Control',
-        'img': 'AFK Compendium/images/heroes/Treznor.png',
-        'sig_img': 'AFK Compendium/images/heroes/Treznor sigitem.png',
+        'img': 'images\\heroes\\Treznor.png',
+        'sig_img': 'images\\items\\Treznor sigitem.png',
         'sig': 'Blade Of Promise',
         'skills': {
             'skill_1': 'Purging Cleave',
@@ -2073,10 +2073,10 @@ heroes_dict = {
     'Ukyo' : {
         'name': 'Ukyo',
         'fac': 'Dimensional',
-        'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+        'fac_img': 'images\\factions\\dimensional.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Ukyo.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ukyo sigitem.png',
+        'img': 'images\\heroes\\Ukyo.png',
+        'sig_img': 'images\\items\\Ukyo sigitem.png',
         'sig': 'Nameless Self-Made Sword',
         'skills': {
             'skill_1': 'Hientorajin',
@@ -2091,10 +2091,10 @@ heroes_dict = {
     'Ulmus' : {
         'name': 'Ulmus',
         'fac': 'Wilder',
-        'fac_img': 'AFK Compendium/images/factions/wilder.png',
+        'fac_img': 'images\\factions\\wilder.png',
         'role': 'Tank',
-        'img': 'AFK Compendium/images/heroes/Ulmus.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ulmus sigitem.png',
+        'img': 'images\\heroes\\Ulmus.png',
+        'sig_img': 'images\\items\\Ulmus sigitem.png',
         'sig': 'Totem Scoring',
         'skills': {
             'skill_1': 'Deep Roots',
@@ -2109,10 +2109,10 @@ heroes_dict = {
     'Ulric' : {
         'name': 'Ulric',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Buffer',
-        'img': 'AFK Compendium/images/heroes/Ulric.png',
-        'sig_img': 'AFK Compendium/images/heroes/Ulric sigitem.png',
+        'img': 'images\\heroes\\Ulric.png',
+        'sig_img': 'images\\items\\Ulric sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Knockback',
@@ -2127,10 +2127,10 @@ heroes_dict = {
     'Vedan' : {
         'name': 'Vedan',
         'fac': 'Graveborn',
-        'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+        'fac_img': 'images\\factions\\graveborn.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Vedan.png',
-        'sig_img': 'AFK Compendium/images/heroes/Vedan sigitem.png',
+        'img': 'images\\heroes\\Vedan.png',
+        'sig_img': 'images\\items\\Vedan sigitem.png',
         'sig': '',
         'skills': {
             'skill_1': 'Dark Swarm',
@@ -2145,10 +2145,10 @@ heroes_dict = {
     'Vurk' : {
         'name': 'Vurk',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Aoe',
-        'img': 'AFK Compendium/images/heroes/Vurk.png',
-        'sig_img': 'AFK Compendium/images/heroes/Vurk sigitem.png',
+        'img': 'images\\heroes\\Vurk.png',
+        'sig_img': 'images\\items\\Vurk sigitem.png',
         'sig': 'Shadow Stinger',
         'skills': {
             'skill_1': 'Mania',
@@ -2163,10 +2163,10 @@ heroes_dict = {
     'Walker' : {
         'name': 'Walker',
         'fac': 'Lightbearer',
-        'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+        'fac_img': 'images\\factions\\lightbearer.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Walker.png',
-        'sig_img': 'AFK Compendium/images/heroes/Walker sigitem.png',
+        'img': 'images\\heroes\\Walker.png',
+        'sig_img': 'images\\items\\Walker sigitem.png',
         'sig': 'Ragin Bull',
         'skills': {
             'skill_1': 'Saloon Blast',
@@ -2181,10 +2181,10 @@ heroes_dict = {
     'Warek' : {
         'name': 'Warek',
         'fac': 'Mauler',
-        'fac_img': 'AFK Compendium/images/factions/mauler.png',
+        'fac_img': 'images\\factions\\mauler.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Warek.png',
-        'sig_img': 'AFK Compendium/images/heroes/Warek sigitem.png',
+        'img': 'images\\heroes\\Warek.png',
+        'sig_img': 'images\\items\\Warek sigitem.png',
         'sig': 'Coward Crusher',
         'skills': {
             'skill_1': 'Bloodlust',
@@ -2199,10 +2199,10 @@ heroes_dict = {
     'Wu Kong' : {
         'name': 'Wu Kong',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Wu Kong.png',
-        'sig_img': 'AFK Compendium/images/heroes/Wu Kong sigitem.png',
+        'img': 'images\\heroes\\Wu Kong.png',
+        'sig_img': 'images\\items\\Wu Kong sigitem.png',
         'sig': 'The Golden Rod',
         'skills': {
             'skill_1': 'Cloud Clones',
@@ -2217,10 +2217,10 @@ heroes_dict = {
     'Zaphrael' : {
         'name': 'Zaphrael',
         'fac': 'Celestial',
-        'fac_img': 'AFK Compendium/images/factions/celestial.png',
+        'fac_img': 'images\\factions\\celestial.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Zaphrael.png',
-        'sig_img': 'AFK Compendium/images/heroes/Zaphrael sigitem.png',
+        'img': 'images\\heroes\\Zaphrael.png',
+        'sig_img': 'images\\items\\Zaphrael sigitem.png',
         'sig': 'Arc Of Justice',
         'skills': {
             'skill_1': 'Lightning Purge',
@@ -2235,10 +2235,10 @@ heroes_dict = {
     'Zikis' : {
         'name': 'Zikis',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Continuous Damage',
-        'img': 'AFK Compendium/images/heroes/Zikis.png',
-        'sig_img': 'AFK Compendium/images/heroes/Zikis sigitem.png',
+        'img': 'images\\heroes\\Zikis.png',
+        'sig_img': 'images\\items\\Zikis sigitem.png',
         'sig': 'Wings Of Lethargy',
         'skills': {
             'skill_1': 'Burning Sight',
@@ -2253,10 +2253,10 @@ heroes_dict = {
     'Zolrath' : {
         'name': 'Zolrath',
         'fac': 'Hypogean',
-        'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+        'fac_img': 'images\\factions\\hypogean.png',
         'role': 'Assassin',
-        'img': 'AFK Compendium/images/heroes/Zolrath.png',
-        'sig_img': 'AFK Compendium/images/heroes/Zolrath sigitem.png',
+        'img': 'images\\heroes\\Zolrath.png',
+        'sig_img': 'images\\items\\Zolrath sigitem.png',
         'sig': 'Hourglass Of Time',
         'skills': {
             'skill_1': 'Time Rift',
@@ -2267,6 +2267,294 @@ heroes_dict = {
         },
         'background': '#712F85',
         'rarity': 'Ascended',
+    },
+    'Awakened Ezizh' : {
+    'fac': 'Hypogean',
+    'fac_img': 'AFK Compendium/images/factions/dimensional.png',
+    'role': 'Continuous Damage',
+    'img': 'AFK Compendium/images/heroes/awakened ezizh.png',
+    'sig_img': 'AFK Compendium/images/items/awakened ezizh sigitem.png',
+    'sig': 'Infernal Pauldron',
+    'skills': {
+        'skill_1': 'Nightmare's Descent',
+        'skill_2': 'Dephts of Darkness',
+        'skill_3': 'Mind Flay',
+        'skill_4': 'Nightmare Arc',
+        'skill_5': 'Dephts of Darkness'
+        },
+    'background': '#712F85',
+    'rarity': 'Ascended',
+    },
+    'Awakened Talene' : {
+    'fac': 'Celestial',
+    'fac_img': 'AFK Compendium/images/factions/celestial.png',
+    'role': 'Buffer',
+    'img': 'AFK Compendium/images/heroes/awakened talene.png',
+    'sig_img': 'AFK Compendium/images/items/awakened talene sigitem.png',
+    'sig': 'Heart of the Phoenix',
+    'skills': {
+        'skill_1': 'A New Dawn',
+        'skill_2': 'Blade of Resurgence',
+        'skill_3': 'Everlasting Flame',
+        'skill_4': 'Wings of Fire',
+        'skill_5': 'Blade of Resurgence'
+        },
+    'background': '#F2E297',
+    'rarity': 'Ascended',
+    },
+    'Awakened Solise' : {
+    'fac': 'Wilder',
+    'fac_img': 'AFK Compendium/images/factions/wilder.png',
+    'role': 'Regen',
+    'img': 'AFK Compendium/images/heroes/awakened solise.png',
+    'sig_img': 'AFK Compendium/images/items/awakened solise sigitem.png',
+    'sig': 'Crescent Staff',
+    'skills': {
+        'skill_1': 'Clouds' Fall',
+        'skill_2': 'Water's Call',
+        'skill_3': 'Spirit Animation',
+        'skill_4': 'Torrential Link',
+        'skill_5': 'Water’s Call'
+        },
+    'background': '#779A71',
+    'rarity': 'Ascended',
+    },
+    'Awakened Brutus' : {
+    'fac': 'Mauler',
+    'fac_img': 'AFK Compendium/images/factions/mauler.png',
+    'role': 'Continuous Damage',
+    'img': 'AFK Compendium/images/heroes/awakened brutus.png',
+    'sig_img': 'AFK Compendium/images/items/awakened brutus sigitem.png',
+    'sig': 'Montain Breaker',
+    'skills': {
+        'skill_1': 'Shattered Montain',
+        'skill_2': 'Rank Breaker',
+        'skill_3': 'Fury Blow',
+        'skill_4': 'Unyielding Spirit',
+        'skill_5': 'Rank Breaker'
+        },
+    'background': '#FF0000',
+    'rarity': 'Ascended',
+    },
+    'Awakened Baden' : {
+    'fac': 'Graveborn',
+    'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+    'role': 'Continuous Damage',
+    'img': 'AFK Compendium/images/heroes/awakened baden.png',
+    'sig_img': 'AFK Compendium/images/items/awakened baden sigitem.png',
+    'sig': 'Wilting Thorns',
+    'skills': {
+        'skill_1': 'Blight Clone',
+        'skill_2': 'Razor Leaf',
+        'skill_3': 'Vine Lash',
+        'skill_4': 'Clone Link',
+        'skill_5': 'Razor Leaf'
+        },
+    'background': '#026B5C',
+    'rarity': 'Ascended',
+    },
+    'Awakened Thane' : {
+    'fac': 'Lightbearer',
+    'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+    'role': 'Burst Damage',
+    'img': 'AFK Compendium/images/heroes/awakened thane.png',
+    'sig_img': 'AFK Compendium/images/items/awakened thane sigitem.png',
+    'sig': 'The Lotus Blade',
+    'skills': {
+        'skill_1': 'Wind's Edge',
+        'skill_2': 'Maelstrom',
+        'skill_3': 'Dueling Blades',
+        'skill_4': 'Winds of Fury',
+        'skill_5': 'Maelstrom'
+        },
+    'background': '#FFFFFF',
+    'rarity': 'Ascended',
+    },
+    'Tarnos' : {
+    'fac': 'Celestial',
+    'fac_img': 'AFK Compendium/images/factions/celestial.png',
+    'role': 'Continuous Damage',
+    'img': 'AFK Compendium/images/heroes/tarnos.png',
+    'sig_img': 'AFK Compendium/images/items/tarnos sigitem.png',
+    'sig': 'Avenger’s Blade',
+    'skills': {
+        'skill_1': 'Atoner’s Prison',
+        'skill_2': 'Oathbearer’s Strike',
+        'skill_3': 'Divine Punishment',
+        'skill_4': 'Pillars of Sin',
+        'skill_5': 'Avenger’s Blade'
+        },
+    'background': '#F2E297',
+    'rarity': 'Ascended',
+    },
+    'Veithael' : {
+    'fac': 'Celestial',
+    'fac_img': 'AFK Compendium/images/factions/celestial.png',
+    'role': 'Tank',
+    'img': 'AFK Compendium/images/heroes/veithael.png',
+    'sig_img': 'AFK Compendium/images/items/veithael sigitem.png',
+    'sig': 'Resplendence',
+    'skills': {
+        'skill_1': 'Warmonger',
+        'skill_2': 'Brutal Backswing',
+        'skill_3': 'Hear No Evil',
+        'skill_4': 'Head Held High',
+        'skill_5': 'Godly Physique'
+        },
+    'background': '#F2E297',
+    'rarity': 'Ascended',
+    },
+    'Vyloris' : {
+    'fac': 'Hypogean',
+    'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+    'role': 'Burst Damage',
+    'img': 'AFK Compendium/images/heroes/vyloris.png',
+    'sig_img': 'AFK Compendium/images/items/vyloris sigitem.png',
+    'sig': 'Annulus of Lethality',
+    'skills': {
+        'skill_1': 'Cruel Endeavors',
+        'skill_2': 'Cursed Agony',
+        'skill_3': 'Fatal Embrace',
+        'skill_4': 'Everlasting Torment',
+        'skill_5': 'Havoc'
+        },
+    'background': '#712F85',
+    'rarity': 'Ascended',
+    },
+    'Canisa and Ruke' : {
+    'fac': 'Hypogean',
+    'fac_img': 'AFK Compendium/images/factions/hypogean.png',
+    'role': 'Tank',
+    'img': 'AFK Compendium/images/heroes/canisa and ruke.png',
+    'sig_img': 'AFK Compendium/images/items/canisa and ruke sigitem.png',
+    'sig': 'Avenging Chain',
+    'skills': {
+        'skill_1': 'Lightning Lock',
+        'skill_2': 'Wound Reversal',
+        'skill_3': 'Howl of Fury',
+        'skill_4': 'Cage of Fire',
+        'skill_5': 'Chain Reach'
+        },
+    'background': '#712F85',
+    'rarity': 'Ascended',
+    },
+    'Sonja' : {
+    'fac': 'Lightbearer',
+    'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+    'role': 'Buffer',
+    'img': 'AFK Compendium/images/heroes/sonja.png',
+    'sig_img': 'AFK Compendium/images/items/sonja sigitem.png',
+    'sig': 'The Lotus Blade',
+    'skills': {
+        'skill_1': 'Wind's Edge',
+        'skill_2': 'Maelstrom',
+        'skill_3': 'Dueling Blades',
+        'skill_4': 'Winds of Fury',
+        'skill_5': 'Maelstrom'
+        },
+    'background': '#FFFFFF',
+    'rarity': 'Ascended',
+    },
+    'Palmer' : {
+    'fac': 'Lightbearer',
+    'fac_img': 'AFK Compendium/images/factions/lightbearer.png',
+    'role': 'Buffer',
+    'img': 'AFK Compendium/images/heroes/palmer.png',
+    'sig_img': 'AFK Compendium/images/items/palmer sigitem.png',
+    'sig': 'The Lotus Blade',
+    'skills': {
+        'skill_1': 'Wind's Edge',
+        'skill_2': 'Maelstrom',
+        'skill_3': 'Dueling Blades',
+        'skill_4': 'Winds of Fury',
+        'skill_5': 'Maelstrom'
+        },
+    'background': '#FFFFFF',
+    'rarity': 'Ascended',
+    },
+    'Anasta' : {
+    'fac': 'Mauler',
+    'fac_img': 'AFK Compendium/images/factions/mauler.png',
+    'role': 'Continuous Damage',
+    'img': 'AFK Compendium/images/heroes/anasta.png',
+    'sig_img': 'AFK Compendium/images/items/anasta sigitem.png',
+    'sig': 'Windcleaver',
+    'skills': {
+        'skill_1': 'Spiral Cleaver',
+        'skill_2': 'Confrontation',
+        'skill_3': 'Shattered Shields',
+        'skill_4': 'Mauler’s Prowess',
+        'skill_5': 'Inextinguishable Might'
+        },
+    'background': '#FFFFFF',
+    'rarity': 'Ascended',
+    },
+    'Salaki' : {
+    'fac': 'Mauler',
+    'fac_img': 'AFK Compendium/images/factions/mauler.png',
+    'role': 'Buffer',
+    'img': 'AFK Compendium/images/heroes/salaki.png',
+    'sig_img': 'AFK Compendium/images/items/salaki sigitem.png',
+    'sig': 'Staff of Sacrifice',
+    'skills': {
+        'skill_1': 'Flagellant’s Flame',
+        'skill_2': 'Withering Winds',
+        'skill_3': 'Frightening Forcefield',
+        'skill_4': 'Death Defferred',
+        'skill_5': 'Inheritance'
+        },
+    'background': '#FFFFFF',
+    'rarity': 'Ascended',
+    },
+    'Eorin' : {
+    'fac': 'Wilder',
+    'fac_img': 'AFK Compendium/images/factions/wilder.png',
+    'role': 'Burst Damage',
+    'img': 'AFK Compendium/images/heroes/eorin.png',
+    'sig_img': 'AFK Compendium/images/items/eorin sigitem.png',
+    'sig': 'Parasitic Spear',
+    'skills': {
+        'skill_1': 'Combined Spear',
+        'skill_2': 'Weakspot Mark',
+        'skill_3': 'Poisonous Mushroom',
+        'skill_4': 'Stacking Spores',
+        'skill_5': 'Parasitic Spear'
+        },
+    'background': '#779A71',
+    'rarity': 'Ascended',
+    },
+    'Nevanthi' : {
+    'fac': 'Wilder',
+    'fac_img': 'AFK Compendium/images/factions/wilder.png',
+    'role': 'Regen',
+    'img': 'AFK Compendium/images/heroes/nevanthi.png',
+    'sig_img': 'AFK Compendium/images/items/nevanthi sigitem.png',
+    'sig': 'Deflecting Sprouts',
+    'skills': {
+        'skill_1': 'Nature’s Flourish',
+        'skill_2': 'Connecting Branches',
+        'skill_3': 'Natural Gifts',
+        'skill_4': 'Verdant Shade',
+        'skill_5': 'Deflecting Sprouts'
+        },
+    'background': '#779A71',
+    'rarity': 'Ascended',
+    },
+    'Kalene' : {
+    'fac': 'Graveborn',
+    'fac_img': 'AFK Compendium/images/factions/graveborn.png',
+    'role': 'Continuous Damage',
+    'img': 'AFK Compendium/images/heroes/kalene.png',
+    'sig_img': 'AFK Compendium/images/items/kalene sigitem.png',
+    'sig': 'Necrohound',
+    'skills': {
+        'skill_1': 'Necrohound',
+        'skill_2': 'Eternal Lifeblood',
+        'skill_3': 'Ephemeral Spirits',
+        'skill_4': 'Blood Ritual',
+        'skill_5': 'Blood Feast'
+        },
+    'background': '#026B5C',
+    'rarity': 'Ascended',
     }
-
 }
