@@ -1,159 +1,207 @@
-from tkinter import *
-from tkinter import ttk
-from PIL import ImageTk, Image
-import data as d
+from PySide6 import *
+from PySide6.QtWidgets import *
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+import sys
+import data
 from data import heroes_dict
 
-# Colors
-c1 = '#000000' # Black
-c2 = '#FFFFFF' # White
-c3 = '#712F85' # Purple
-c4 = '#F2E297' # Yellow
-c5 = '#779A71' # Green
-c6 = '026B5C' # Dark Green
-c7 = '#1F75FE' # Blue
-c8 = '#FF0000' # Red
+# Create thewindow with QML and split it into two equal parts
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("AFK Compendium")
+        self.setWindowIcon(QIcon("AFK Compendium/images/heroes/afklogo.png"))
+        self.setGeometry(0, 0, 1200, 800)
+        self.splitter = QSplitter(self)
+        self.splitter.setOrientation(Qt.Horizontal)
+        self.splitter.setHandleWidth(1)
+        self.setCentralWidget(self.splitter)
+        self.splitter.setStyleSheet("QSplitter::handle {background-color: #1f1f1f;}")
+        self.splitter.setStyleSheet("QSplitter::handle:horizontal {width: 1px;}")
+        self.splitter.setStyleSheet("QSplitter::handle:vertical {height: 1px;}")
+        self.splitter.setStyleSheet("QSplitter::handle:horizontal:hover {width: 1px;}")
+        self.splitter.setStyleSheet("QSplitter::handle:vertical:hover {height: 1px;}")
 
-#window
-window = Tk()
-window.title("AFK Compendium")
-window.configure(background=c2)
-window.geometry("550x510")
+        # Create the left side of the window
+        self.left_widget = QWidget()
+        self.left_widget.setStyleSheet("background-color: #1f1f1f;")
+        self.left_widget.setFixedWidth(200)
+        self.splitter.addWidget(self.left_widget)
+        self.left_layout = QVBoxLayout()
+        self.left_widget.setLayout(self.left_layout)
 
-ttk.Separator(window, orient=HORIZONTAL).grid(row=0, columnspan=1, ipadx=272)
+        # Create the right side of the window
+        self.right_widget = QWidget()
+        self.right_widget.setStyleSheet("background-color: #1f1f1f;")
+        self.splitter.addWidget(self.right_widget)
+        self.right_layout = QVBoxLayout()
+        self.right_widget.setLayout(self.right_layout)
 
-style = ttk.Style(window)
-style.theme_use('clam')
+        # Create the search bar
+        self.search_bar = QLineEdit()
+        self.search_bar.setPlaceholderText("Search")
+        self.search_bar.setStyleSheet("background-color: #1f1f1f; color: #ffffff; border: 1px solid #ffffff; border-radius: 5px; padding: 5px;")
+        self.search_bar.textChanged.connect(self.search)
+        self.left_layout.addWidget(self.search_bar)
 
-# Frames
-frame_hero = Frame(window, width=550, height=290, relief='flat')
-frame_hero.grid(row=1, column=0)
+        # Create the list of heroes
+        self.heroes_list = QListWidget()
+        self.heroes_list.setStyleSheet("background-color: #1f1f1f; color: #ffffff; border: 1px solid #ffffff; border-radius: 5px; padding: 5px;")
+        self.left_layout.addWidget(self.heroes_list)
+        
+        # Create the hero faction image and set it into the right side of the grid
+        self.hero_faction_img = QLabel()
+        self.hero_faction_img.setPixmap(QPixmap("AFK Compendium/images/factions/afklogo.png"))
+        self.hero_faction_img.setAlignment(Qt.AlignCenter)
+        self.hero_faction_img.setFixedHeight(50)
+        self.hero_faction_img.setFixedWidth(50)
+        self.right_layout.addWidget(self.hero_faction_img)
+        self.right_layout.setAlignment(self.hero_faction_img, Qt.AlignCenter)
+        
+        # Create the hero name and align in the center
+        self.hero_name = QLabel()
+        self.hero_name.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_name.setFont(QFont("Arial", 20, QFont.Bold))
+        self.right_layout.addWidget(self.hero_name)
+        self.right_layout.setAlignment(self.hero_name, Qt.AlignCenter)
+        
 
-def hero_select(hero):
-    global hero_img, hero_placement, sig_img, hero_sig_img, hero_background
+        # Create the hero faction and align in the center
+        self.hero_faction = QLabel()
+        self.hero_faction.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_faction.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_faction)
+        self.right_layout.setAlignment(self.hero_faction, Qt.AlignCenter)
 
-    hero_img = Image.open(heroes_dict[hero]['img'])
-    hero_img = hero_img.resize((230, 230))
-    hero_img = ImageTk.PhotoImage(hero_img)
+        # Create the hero role and align in the center
+        self.hero_role = QLabel()
+        self.hero_role.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_role.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_role)
+        self.right_layout.setAlignment(self.hero_role, Qt.AlignCenter)
 
-    sig_img = Image.open(heroes_dict[hero]['sig_img'])
-    sig_img = sig_img.resize((100, 100))
-    sig_img = ImageTk.PhotoImage(sig_img)
+        # Create the hero image and align in the center
+        self.hero_image = QLabel() 
+        self.hero_image.setPixmap(QPixmap("AFK Compendium/images/heroes/afklogo.png"))
+        self.hero_image.setAlignment(Qt.AlignCenter)
+        self.hero_image.setFixedHeight(300)
+        self.hero_image.setFixedWidth(300)
+        self.right_layout.addWidget(self.hero_image)
+        self.right_layout.setAlignment(self.hero_image, Qt.AlignCenter)
 
-    hero_placement.configure(image=hero_img)
-    hero_placement.image = hero_img
+        # Create the signature item title and align in the left
+        self.sig_item_title = QLabel()
+        self.sig_item_title.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.sig_item_title.setFont(QFont("Arial", 15, QFont.Bold))
+        self.sig_item_title.setText("Signature Item")
+        self.right_layout.addWidget(self.sig_item_title)
+        self.right_layout.setAlignment(self.sig_item_title, Qt.AlignRight)
+        
+        # Create the hero signature item image
+        self.hero_sig_img = QLabel()
+        self.hero_sig_img.setPixmap(QPixmap("AFK Compendium/images/factions/afklogo.png"))
+        self.hero_sig_img.setAlignment(Qt.AlignLeft)
+        self.hero_sig_img.setFixedHeight(150)
+        self.hero_sig_img.setFixedWidth(150)
+        self.right_layout.addWidget(self.hero_sig_img)
+
+        # Set the hero signature item image on the left side of the right side of the window
+        self.right_layout.setAlignment(self.hero_sig_img, Qt.AlignRight)
+
+        # Set the hero signature item name and align right
+        self.hero_sig_name = QLabel()
+        self.hero_sig_name.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_sig_name.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_sig_name)
+        self.right_layout.setAlignment(self.hero_sig_name, Qt.AlignRight)
+
+        # Create a header for the hero skills with a font size of 20
+        self.hero_skills_header = QLabel("Hero Skills")
+        self.hero_skills_header.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_skills_header.setFont(QFont("Arial", 20))
+        self.right_layout.addWidget(self.hero_skills_header)
+
+        # Create the hero skill 1
+        self.hero_skill_1 = QLabel()
+        self.hero_skill_1.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_skill_1.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_skill_1)
+
+        # Create the hero skill 2
+        self.hero_skill_2 = QLabel()
+        self.hero_skill_2.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_skill_2.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_skill_2)
+
+        # Create the hero skill 3
+        self.hero_skill_3 = QLabel()
+        self.hero_skill_3.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_skill_3.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_skill_3)
+
+        # Create the hero skill 4
+        self.hero_skill_4 = QLabel()
+        self.hero_skill_4.setStyleSheet("background-color: #1f1f1f; color: #ffffff; padding: 5px;")
+        self.hero_skill_4.setFont(QFont("Arial", 15, QFont.Bold))
+        self.right_layout.addWidget(self.hero_skill_4)
+        
+        # Add the heroes to the list alphabetically ascending
+        for hero in heroes_dict:
+            self.heroes_list.addItem(hero)
+            
+
+        # When a hero is clicked, show its content
+        self.heroes_list.itemClicked.connect(self.show_hero_info)
+        self.heroes_list.itemClicked.connect(self.show_hero_image)
+        # resize the image to fit the label
+        self.hero_image.setScaledContents(True)
+
+        # resize the image to fit the label
+        self.hero_sig_img.setScaledContents(True)
+
+        # resize the image to fit the label
+        self.hero_faction_img.setScaledContents(True)
     
-    hero_sig_img.configure(image=sig_img)
-    hero_sig_img.image = sig_img
+    # Show the hero image when clicked
+    def show_hero_image(self):
+        hero = self.heroes_list.currentItem().text()
+        self.hero_image.setPixmap(QPixmap(heroes_dict[hero]['img']))
+        print(heroes_dict[hero]['img'])
+        self.hero_sig_img.setPixmap(QPixmap(heroes_dict[hero]['sig_img']))
+        print(heroes_dict[hero]['sig_img'])
+        self.hero_faction_img.setPixmap(QPixmap(heroes_dict[hero]['fac_img']))
+        print(heroes_dict[hero]['fac_img'])
 
-    hero_background = heroes_dict[hero]['background']
+    # Show the dictionary name, faction, role, skill_1, skill_2, and skill_3, and skill_4 of a hero individually when clicked 
+    def show_hero_info(self):
+        hero = self.heroes_list.currentItem().text()
+        self.hero_name.setText(heroes_dict[hero]["name"])
+        print(heroes_dict[hero]["name"])
+        self.hero_faction.setText(heroes_dict[hero]["fac"])
+        self.hero_role.setText(heroes_dict[hero]["role"])
+        self.hero_sig_name.setText(heroes_dict[hero]["sig"])
+        self.hero_skill_1.setText(heroes_dict[hero]['skills']['skill_1'])
+        self.hero_skill_2.setText(heroes_dict[hero]['skills']['skill_2'])
+        self.hero_skill_3.setText(heroes_dict[hero]['skills']['skill_3'])
+        self.hero_skill_4.setText(heroes_dict[hero]['skills']['skill_4'])
 
-    hero_name.configure(text=heroes_dict[hero]['name'])
-    hero_fac.configure(text=heroes_dict[hero]['fac'])
-    hero_role.configure(text=heroes_dict[hero]['role'])
-    hero_sig.configure(text=heroes_dict[hero]['sig'])
-    hero_background.configure(bg=heroes_dict[hero]['background'])
+# Search for a hero
+    def search(self):
+        self.heroes_list.clear()
+        for hero in heroes_dict:
+            if self.search_bar.text().lower() in hero.lower():
+                self.heroes_list.addItem(hero)
+            
+        
+# Run the app
+app = QApplication(sys.argv)
+window = MainWindow()
+window.show()
+app.exec()
 
 
-    hero_skill_1.configure(text=heroes_dict[hero]['skills']['skill_1'])
-    hero_skill_2.configure(text=heroes_dict[hero]['skills']['skill_2'])
-    hero_skill_3.configure(text=heroes_dict[hero]['skills']['skill_3'])
-    hero_skill_4.configure(text=heroes_dict[hero]['skills']['skill_4'])
+                                 
 
 
 
-# Labels
-hero_name = Label(frame_hero, text="Alna", font=("Ivy", 20, 'bold'), relief='flat', anchor='center')
-hero_name.place(x=12, y=5)
-
-hero_fac = Label(frame_hero, text="Celestial", font=("Ivy", 15), relief='flat', anchor='center')
-hero_fac.place(x=12, y=40)
-
-hero_role = Label(frame_hero, text="Debuffer", font=("Ivy", 15), relief='flat', anchor='center')
-hero_role.place(x=12, y=75)
-
-# HERO IMAGE
-hero_img = Image.open('images/heroes/alna.png')
-hero_img = hero_img.resize((230, 230))
-hero_img = ImageTk.PhotoImage(hero_img)
-
-# SIGNATURE ITEM IMAGE
-sig_img = Image.open('images/items/alna_sigitem.webp')
-sig_img = sig_img.resize((100, 100))
-sig_img = ImageTk.PhotoImage(sig_img)
-
-hero_placement = Label(frame_hero, image=hero_img, relief='flat')
-hero_placement.place(x=120, y=35)
-
-hero_name.lift()
-hero_fac.lift()
-hero_role.lift()
-frame_hero.lift()
-
-hero_skill_title = Label(window, text="Skills", font=("Ivy", 20))
-hero_skill_title.place(x=15, y=310)
-
-hero_skill_1 = Label(window, text="Winter War Cry", font=("Ivy", 15))
-hero_skill_1.place(x=15, y=360)
-
-hero_skill_2 = Label(window, text="Freezing Pierce", font=("Ivy", 15))
-hero_skill_2.place(x=15, y=385)
-
-hero_skill_3 = Label(window, text="Winter's Call", font=("Ivy", 15))
-hero_skill_3.place(x=15, y=411)
-
-hero_skill_4 = Label(window, text="Frozen Fury", font=("Ivy", 15))
-hero_skill_4.place(x=15, y=437)
-
-hero_skill_title.lift()
-
-hero_sig_title = Label(window, text="Signature Item", font=("Ivy", 20))
-hero_sig_title.place(x=300, y=310)
-
-hero_sig = Label(window, text="Frostbite", font=("Ivy", 15))
-hero_sig.place(x=300, y=355)
-
-hero_sig_img = Label(window, image=sig_img, relief='flat')
-hero_sig_img.place(x=300, y=385)
-
-hero_sig_title.lift()
-
-# Buttons
-
-# Button Images
-ico_img_1 = Image.open('images/heroes portraits/Alna_portrait.png')
-ico_img_1 = ico_img_1.resize((50, 50))
-ico_img_1 = ImageTk.PhotoImage(ico_img_1)
-
-btn_ico_img_1 = Button(window, command=lambda:hero_select('Alna'), image=ico_img_1, text=' Alna', width=150, relief='raised', overrelief='ridge', compound='left', anchor='nw', font=("Ivy", 12, 'bold'), fg=c1, bg=c2)
-btn_ico_img_1.place(x=375, y=5)
-
-ico_img_2 = Image.open('images/heroes portraits/Arthur_portrait.png')
-ico_img_2 = ico_img_2.resize((50, 50))
-ico_img_2 = ImageTk.PhotoImage(ico_img_2)
-
-btn_ico_img_2 = Button(window, command=lambda:hero_select('Arthur'), image=ico_img_2, text=' Arthur', width=150, relief='raised', overrelief='ridge', compound='left', anchor='nw', font=("Ivy", 12, 'bold'), fg=c1, bg=c2)
-btn_ico_img_2.place(x=375, y=65)
-
-ico_img_3 = Image.open('images/heroes portraits/Belinda_portrait.png')
-ico_img_3 = ico_img_3.resize((50, 50))
-ico_img_3 = ImageTk.PhotoImage(ico_img_3)
-
-btn_ico_img_3 = Button(window,  command=lambda:hero_select('Belinda'), image=ico_img_3, text=' Belinda', width=150, relief='raised', overrelief='ridge', compound='left', anchor='nw', font=("Ivy", 12, 'bold'), fg=c1, bg=c2)
-btn_ico_img_3.place(x=375, y=125)
-
-ico_img_4 = Image.open('images/heroes portraits/Numisu_portrait.png')
-ico_img_4 = ico_img_4.resize((50, 50))
-ico_img_4 = ImageTk.PhotoImage(ico_img_4)
-
-btn_ico_img_4 = Button(window,  command=lambda:hero_select('Numisu'), image=ico_img_4, text=' Numisu', width=150, relief='raised', overrelief='ridge', compound='left', anchor='nw', font=("Ivy", 12, 'bold'), fg=c1, bg=c2)
-btn_ico_img_4.place(x=375, y=185)
-
-ico_img_5 = Image.open('images/heroes portraits/Tasi_portrait.png')
-ico_img_5 = ico_img_5.resize((50, 50))
-ico_img_5 = ImageTk.PhotoImage(ico_img_5)
-
-btn_ico_img_5 = Button(window, command=lambda:hero_select('Tasi'), image=ico_img_5, text=' Tasi', width=150, relief='raised', overrelief='ridge', compound='left', anchor='nw', font=("Ivy", 12, 'bold'), fg=c1, bg=c2)
-btn_ico_img_5.place(x=375, y=245)
-
-window.mainloop()
